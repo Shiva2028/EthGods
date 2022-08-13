@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 // Used for wrapping a page component
 export const Screen = styled.div`
-  background-color: var(--primary);
+  background-color: var(--dark-grey);
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
   background-position: center;
@@ -51,22 +51,21 @@ export const Container = styled.div`
 `;
 
 export const TextTitle = styled.p`
-  color: var(--primary-text);
-  font-size: 22px;
+  color: var(--white);
+  font-size: 20px;
   font-weight: 500;
-  line-height: 1.6;
 `;
 
 export const TextSubTitle = styled.p`
-  color: var(--primary-text);
-  font-size: 18px;
-  line-height: 1.6;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
 `;
 
 export const TextDescription = styled.p`
-  color: var(--primary-text);
-  font-size: 16px;
-  line-height: 1.6;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 600;
 `;
 
 export const StyledClickable = styled.div`
